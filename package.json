@@ -2,13 +2,18 @@
   "name": "node-express-handlebars",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.10.4"
+    "app-root-path": "^1.0.0",
+    "body-parser": "~1.0.0",
+    "express": "^4.10.4",
+    "express4-handlebars": "^0.1.8",
+    "method-override": "~1.0.0",
+    "morgan": "~1.0.0"
   }
 }
